@@ -24,13 +24,13 @@ class Config():
         self.dg_ds_path = 'origin_dataset/drug_disease.csv'
         self.dg_dg_path = 'origin_dataset/drug_drug.csv'
         self.dg_pt_path = 'origin_dataset/drug_protein.csv'
-        self.dg_se_path = 'origin_dataset/drug_se.csv'
-        self.pt_ds_path = 'origin_dataset/protein_disease.csv'
+        #self.dg_se_path = 'origin_dataset/drug_se.csv'
+        #self.pt_ds_path = 'origin_dataset/protein_disease.csv'
         self.pt_pt_path = 'origin_dataset/protein_protein.csv'
         self.dg_dg_sim_path = "origin_dataset/Similarity_Matrix_Drugs.txt"
         self.pt_pt_sim_path = "origin_dataset/Similarity_Matrix_Proteins.txt"
         self.dg_smiles_path = 'origin_dataset/drug_smiles.csv'
         self.pt_fasta_path = 'origin_dataset/protein_fasta.csv'
 
-        self.cold_drug_path = 'cold_dataset/cold_drug'
+        #self.cold_drug_path = 'cold_dataset/cold_drug'
         self.cold_protein_path = 'cold_dataset/cold_protein'

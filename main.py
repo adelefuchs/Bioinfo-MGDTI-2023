@@ -9,8 +9,8 @@ from model import mainModel
 from dataset import Dataset
 from sklearn.metrics import roc_auc_score, average_precision_score, accuracy_score
 
-os.environ['CUDA'] = '1'
-cuda = "cuda:1"
+os.environ['CUDA'] = '0'
+cuda = "cuda:0"
 device = torch.device(cuda)
 config = Config()
 
